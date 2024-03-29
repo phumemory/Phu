@@ -29,7 +29,7 @@ document.onkeydown = function (e) {
 
 // Audio Autoloop
 document.addEventListener("DOMContentLoaded", function() {
-    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1222835489430704178/y2mate.is_-_ZENTYARB_x_PUNYARB_Official_Audio_-Ewp4UfLu-lk-192k-1711617036.mp3?ex=6617a94b&is=6605344b&hm=c31615d262c7df8462b86f064f54c3fd5cd98dced9d38ed218345e2d416792d7&");
+    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1223322662130946099/Official_MV.mp3?ex=66196f02&is=6606fa02&hm=1bf45dbb744c1c4b2ff79474dabb9838b9528a9f2256c9425d06b53d748d1dd5&");
     audio.loop = true;
     document.addEventListener("click", function(){
       audio.play();
