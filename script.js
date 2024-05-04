@@ -29,7 +29,7 @@ document.onkeydown = function (e) {
 
 // Audio Autoloop
 document.addEventListener("DOMContentLoaded", function() {
-    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1224214086620020736/Thaisub_Sunflower_x_Sunflower_-_Pose_Malone_ft.Swae_Lee.mp3?ex=661cad37&is=660a3837&hm=ad3ee20ec512e29108eb0ad5c378ecf34131e04ebf73a7da5bdfef87f1d26736&");
+    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1224214086620020736/Thaisub_Sunflower_x_Sunflower_-_Pose_Malone_ft.Swae_Lee.mp3?ex=6637b3f7&is=66366277&hm=d53b797c8ddd9729a11cfc432868d820549e682184a1dc59341c6d17cad919d9&");
     audio.loop = true;
     document.addEventListener("click", function(){
       audio.play();
