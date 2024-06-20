@@ -25,16 +25,21 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    animation: fadeIn 2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-container:hover {
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 .profile-image {
     border-radius: 50%;
     margin-bottom: 10px;
-    transition: transform 0.3s ease-in-out; 
-}
-
-.profile-image:hover {
-    transform: scale(1.2);
 }
 
 .contact-column {
@@ -93,6 +98,36 @@ video {
     animation:
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
+}
+
+footer {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    text-align: right;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: fadeIn 2s ease-in-out;
+}
+
+footer p {
+    margin: 1px 0;
+    animation: slideUp 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+footer p:hover {
+    color: #00b7ff;
+    transition: color 0.3s ease-in-out;
 }
 
 @keyframes typing {
