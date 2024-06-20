@@ -29,7 +29,7 @@ document.onkeydown = function (e) {
 
 // Audio Autoloop
 document.addEventListener("DOMContentLoaded", function() {
-    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1198611583018991709/noyou.mp3?ex=66684906&is=6666f786&hm=41cdaaa2d653e300d4c11547c1d2c0152c11f5c3f17e803d71f57e6ce3bb6380&");
+    var audio = new Audio("https://cdn.discordapp.com/attachments/968542864235716658/1198240393330970644/One_Of_The_Girls.mp3?ex=6674c714&is=66737594&hm=bedfb9b19ebea96539824a5f894ecfcd0839bd0c8eef5f89c90658f11a19d53a&");
     audio.loop = true;
     document.addEventListener("click", function(){
       audio.play();
