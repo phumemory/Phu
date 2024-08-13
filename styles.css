@@ -81,14 +81,15 @@ video {
 }
 
 .name h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Trirong", serif;
     color: #ffffff;
     font-size: x-large;
 }
 
 .typewriter h2 {
     color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
     overflow: hidden;
     font-size: 15px;
     border-right: .15em solid rgb(240, 240, 240);
@@ -106,11 +107,12 @@ footer {
     width: 100%;
     text-align: right;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: fadeIn 2s ease-in-out;
 }
 
 footer p {
+    font-family: "Kanit", sans-serif;
+    font-size: large;
     margin: 1px 0;
     animation: slideUp 1s ease-in-out;
 }
